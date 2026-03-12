@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.hero {
+  background-image: url('path/to/hero/image.jpg');
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.comparison {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border: 1px solid #ccc;
+}
+
+.testimonials {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .comparison, .pricing {
+    flex-direction: column;
+  }
+}
